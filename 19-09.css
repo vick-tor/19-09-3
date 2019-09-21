@@ -1,6 +1,24 @@
 body {
   background: #ff0; }
 
+.cont {
+  width: 60%;
+  height: 150px;
+  background: #fff;
+  border: 5px cyan double;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.circl {
+  border: 5px red dotted;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: url(img/git3.png);
+  background-size: cover;
+  margin: 0 30px; }
+
 .aaa {
   width: 500px;
   height: auto;
