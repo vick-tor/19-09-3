@@ -1,0 +1,25 @@
+body {
+  background: #ff0; }
+
+.aaa {
+  width: 500px;
+  height: auto;
+  border: 3px #f0f dashed;
+  background: #0f0;
+  margin: 50px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; }
+
+.aaa p {
+  font-size: 14px;
+  text-align: center;
+  color: blue; }
+
+h2 {
+  color: #f00;
+  text-align: center;
+  margin: 0;
+  font-size: 2em; }
+
+/*# sourceMappingURL=19-09.css.map */

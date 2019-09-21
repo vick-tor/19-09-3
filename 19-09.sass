@@ -1,0 +1,52 @@
+$cl: #f00
+
+//Padding
+=pd()
+  padding: 10px
+=bx-sz()
+  box-sizing: border-box
+
+//Обычные миксины
+=bg($cl)
+  background: $cl
+=br($px, $cl, $st)
+  border: $px $cl $st
+=wh($w, $h)
+  width: $w
+  height: $h
+
+//MARGIN
+=mr1($z, $aut)
+  margin: $z $aut
+=mr0()
+  margin: 0
+
+//FONTS - TEXT
+=fs($fs)
+  font-size: $fs
+=tac()
+  text-align: center
+
+body
+  @include bg(#ff0)
+.aaa
+  @include wh(500px, auto)
+  @include br(3px, #f0f, dashed)
+  @include bg(#0f0)
+  @include mr1(50px, auto)
+  @include pd()
+  @include bx-sz()
+  @include tac()
+.aaa p
+  @include fs(14px)
+  @include tac()
+  color: blue
+
+h2
+  color: $cl
+  @include tac()
+  @include mr0
+  @include fs(2em)
+
+
+
