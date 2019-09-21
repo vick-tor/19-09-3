@@ -22,4 +22,9 @@ h2 {
   margin: 0;
   font-size: 2em; }
 
+.img {
+  border: 3px #0f0 dashed; }
+
+/*@include br(3px, $cl, dotted) */
+
 /*# sourceMappingURL=19-09.css.map */
