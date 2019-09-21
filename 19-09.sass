@@ -29,6 +29,20 @@ $cl: #f00
 
 body
   @include bg(#ff0)
+.cont
+  @include wh(60%, 150px)
+  @include bg(#fff)
+  @include br(5px, cyan, double)
+  display: flex
+  justify-content: flex-start
+  align-items: center
+.circl
+  @include br(5px, red, dotted)
+  border-radius: 50%
+  @include wh(100px, 100px)
+  background: url(img/git3.png)
+  background-size: cover
+  @include mr1(0, 30px)
 .aaa
   @include wh(500px, auto)
   @include br(3px, #f0f, dashed)
